@@ -1,3 +1,4 @@
+原代码：
 package demo;
 
 public class Demo02 {
@@ -18,3 +19,24 @@ public class Demo02 {
 		}
 	}
 }
+
+Junit代码：
+package junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import demo.Demo02;
+
+public class Paixu_test {
+
+	@Test
+	public void test() {
+		int [] arr={57,6,24,55,66,8,4};
+		Demo02.main(arr);
+		System.out.println(arr);
+	}
+
+}
+
